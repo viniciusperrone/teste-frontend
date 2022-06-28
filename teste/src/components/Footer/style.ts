@@ -19,7 +19,7 @@ export const Content = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
-  padding-top: 15vh;
+  padding-top: 20vh;
 `;
 export const ContainerText = styled.div`
   height: 100%;

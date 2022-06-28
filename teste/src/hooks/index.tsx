@@ -8,7 +8,8 @@ type Props = {
 export const Context = createContext({});
 
 export default function ContextProvider({ children }: Props) {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState<boolean>();
+
   return (
     <Context.Provider
       value={{

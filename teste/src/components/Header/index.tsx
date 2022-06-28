@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BsFillCloudMoonFill, BsFillCloudSunFill } from 'react-icons/bs';
 import { useTheme } from '../../hooks/useTheme';
 import { Background } from './style';
