@@ -11,4 +11,10 @@ export default createGlobalStyle`
     background-color: #43454C;
     -webkit-font-smoothing: antialiased;
   }
+  h1 {
+    font-size: 28px;
+    font-family: 'Roboto; sans-serif';
+    font-weight: 700;
+    color: #fff;
+  }
 `;

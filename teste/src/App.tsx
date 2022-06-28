@@ -1,4 +1,4 @@
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import GlobalStyle from "./styles/global";
 
 function App() {
