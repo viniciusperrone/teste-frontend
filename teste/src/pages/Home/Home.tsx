@@ -10,8 +10,8 @@ export function Home() {
     <Background isDark={theme}>
       <Header />
       <Section isDark={theme}>
-        <Card></Card>
-        <Card></Card>
+        <Card type="dog"></Card>
+        <Card type="cat"></Card>
       </Section>
       <Footer />
     </Background>
