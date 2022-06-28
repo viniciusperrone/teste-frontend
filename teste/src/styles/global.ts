@@ -7,9 +7,6 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
-  html, body {
-    background-color: white
-  }
   body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;

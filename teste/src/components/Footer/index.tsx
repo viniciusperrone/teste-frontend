@@ -1,4 +1,5 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { useTheme } from '../../hooks/useTheme';
 import { Waves } from '../Waves';
 import {
   Background,
@@ -12,8 +13,9 @@ import {
 } from './style';
 
 export function Footer() {
+  const { theme } = useTheme();
   return (
-    <Background>
+    <Background isDark={theme}>
       <Waves />
       <Content>
         <ContainerText>

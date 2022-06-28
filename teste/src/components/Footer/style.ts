@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-export const Background = styled.footer`
+type ThemeProps = {
+  isDark: boolean;
+}
+
+export const Background = styled.footer<ThemeProps>`
   width: 100%;
   height: 200px;
-  background-color: #ffffff;
+  background-color: ${props => props.isDark ? '#3A3A41': '#F5F5F5'};
   display: flex;
   justify-content: center;
   align-items: center;

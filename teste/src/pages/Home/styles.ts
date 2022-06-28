@@ -1,14 +1,18 @@
 import styled from 'styled-components';
 
-export const Background = styled.div`
+type ThemeProps = {
+  isDark: boolean;
+}
+
+export const Background = styled.div<ThemeProps>`
   width: 100%;
   height: 100%;
-  background-color: #F5F5F5;
+  background-color: ${props => props.isDark ? '#3A3A41': '#F5F5F5'};
 `;
-export const Section = styled.div`
+export const Section = styled.div<ThemeProps>`
   width: 100vw;
   height: 500px;
-  background-color: #Ffffff;
+  background-color: ${props => props.isDark ? '#3A3A41': '#F5F5F5'};  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
