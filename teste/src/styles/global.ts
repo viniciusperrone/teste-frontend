@@ -7,16 +7,23 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
+  html, body {
+    background-color: white
+  }
   body {
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 28px;
     font-family: 'Titan One', cursive;
-    font-weight: 700;
+    font-weight: 500;
     color: #80DBC4;
   }
   span {
     cursor: pointer;
+  }
+  a {
+    text-decoration: none;
   }
 `;
