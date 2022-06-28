@@ -8,13 +8,15 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background-color: #43454C;
     -webkit-font-smoothing: antialiased;
   }
   h1 {
     font-size: 28px;
-    font-family: 'Roboto; sans-serif';
+    font-family: 'Titan One', cursive;
     font-weight: 700;
-    color: #fff;
+    color: #80DBC4;
+  }
+  span {
+    cursor: pointer;
   }
 `;
