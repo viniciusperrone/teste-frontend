@@ -19,7 +19,14 @@ export const Background = styled.div`
 export const Image = styled.img`
   width: 200px;
   height: 180px;
+`;
 
+export const Default = styled.img`
+  width: 200px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Button = styled.button`

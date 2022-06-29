@@ -1,6 +1,6 @@
 import { AxiosRequestConfig } from 'axios';
 import { useFetch } from '../../services/useFetch';
-import { Background, Button, Image } from './style';
+import { Background, Button, Image, Default } from './style';
 
 interface CardProps {
   type: 'dog' | 'cat';
@@ -37,7 +37,7 @@ export function Card({ type, url }: CardProps) {
   return (
     <Background>
       <h1>{type === 'dog' ? 'Cachorrinho' : 'Gatinho'}</h1>
-      {imageURL && <Image src={imageURL} alt="" />}
+      {imageURL ? <Image src={imageURL} alt="" /> : <Default />}
       <Button onClick={handleGenerateImage}>Gerar</Button>
     </Background>
   );
