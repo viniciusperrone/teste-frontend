@@ -10,8 +10,8 @@ export function Home() {
     <Background isDark={theme}>
       <Header />
       <Section isDark={theme}>
-        <Card type="dog"></Card>
-        <Card type="cat"></Card>
+        <Card type="dog" url="https://placedog.p.rapidapi.com/300/200" />
+        <Card type="cat" url="https://placekitten.com/g" />
       </Section>
       <Footer />
     </Background>
