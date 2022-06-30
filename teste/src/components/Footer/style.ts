@@ -19,7 +19,7 @@ export const Content = styled.div`
   padding-top: 20vh;
   padding-left: 5vh;
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 890px) {
     padding-top: 8%;
   }
 
@@ -62,7 +62,7 @@ export const Description = styled.p`
     font-size: 18px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     margin-top: 5%;
     font-size: 16px;
   }

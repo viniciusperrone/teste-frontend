@@ -10,6 +10,9 @@ import {
 
 export function Footer() {
   const { theme } = useTheme();
+
+  console.log(window.innerWidth);
+
   return (
     <Background isDark={theme}>
       <Waves />
