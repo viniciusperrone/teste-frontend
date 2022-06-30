@@ -1,6 +1,6 @@
-import ContextProvider from "./hooks";
-import { Home } from "./pages/Home";
-import GlobalStyle from "./styles/global";
+import ContextProvider from './hooks';
+import { Home } from '@pages/Home';
+import GlobalStyle from '@styles/global';
 
 function App() {
   return (

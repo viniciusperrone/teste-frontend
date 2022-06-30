@@ -1,11 +1,7 @@
+import { useFetch } from '@services/useFetch';
 import { AxiosRequestConfig } from 'axios';
-import { useFetch } from '../../services/useFetch';
 import { Background, Button, Image, Default } from './style';
-
-interface CardProps {
-  type: 'dog' | 'cat';
-  url: string;
-}
+import { CardProps } from '@shared/interfaces';
 
 export function Card({ type, url }: CardProps) {
   const random = Math.random() * (600 - 300) + 300;

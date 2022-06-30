@@ -1,5 +1,5 @@
-import { useTheme } from '../../hooks/useTheme';
-import { Waves } from '../Waves';
+import { useTheme } from '@hooks/useTheme';
+import { Waves } from '@components/Waves';
 import {
   Background,
   ContainerText,

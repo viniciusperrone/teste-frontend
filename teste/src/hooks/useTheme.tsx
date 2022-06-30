@@ -1,10 +1,6 @@
 import { useContext } from 'react';
 import { Context } from '.';
-
-type ThemeProps = {
-  theme: boolean;
-  setTheme: Function;
-};
+import { ThemeProps } from '@shared/interfaces';
 
 export function useTheme() {
   const context = useContext(Context);

@@ -1,13 +1,5 @@
 import styled from 'styled-components';
-
-type PetProps = {
-  top?: string | number;
-  left?: string | number;
-  right?: string | number;
-  bottom?: string | number;
-  rotate: string;
-  seconds?: string;
-};
+import { PetProps } from '@shared/interfaces';
 
 export const Container = styled.div<PetProps>`
   position: absolute;
